@@ -75,6 +75,7 @@ make mlx</code></pre>
 <h2 id="additional-information">Additional Information</h2>
 <ul>
   <li>This game was created as part of a 42School programming project.</li>
+  <li>The bonus features are currently under development and are not functional.</li>
   <li>If you encounter any issues or have questions, please open an issue on this repository.</li>
 </ul>
 
