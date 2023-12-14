@@ -56,12 +56,6 @@ make mlx</code></pre>
   <pre><code>./so_long ./maps/map2.ber</code></pre>
   <p>or</p>
   <pre><code>./so_long ./maps/map3.ber</code></pre>
-  <p>or</p>
-  <pre><code>./so_long ./maps/map4.ber</code></pre>
-  <p>or</p>
-  <pre><code>./so_long ./maps/map5.ber</code></pre>
-  <p>or</p>
-  <pre><code>./so_long ./maps/map6.ber</code></pre>
 </div>
 <p>You can replace <code>./maps/map1.ber</code> with the path to your desired map file.</p>
 
