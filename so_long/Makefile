@@ -12,7 +12,6 @@
 
 CC = cc
 CFLAGS = -Wall -Wextra -Werror -g -fsanitize=address
-fcleanall: fclean fclean_libft fclean_bonus clean_mlx
 ######################### SO_LONG MANDATORY_PART RULES #########################
 ################################################################################
 NAME = so_long
@@ -121,3 +120,4 @@ fclean_libft: clean_libft
 .PHONY: all clean fclean re start test libft re_libft clean_libft fclean_libft \
 		mlx clean_mlx tb t re_bonus all_bonus clean_bonus fclean_bonus \
 		re_bonus test_bonus
+fcleanall: fclean fclean_libft fclean_bonus clean_mlx
