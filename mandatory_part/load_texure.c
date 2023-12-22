@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   load_texure.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aalatzas <aalatzas@student.42heilbronn.    +#+  +:+       +#+        */
+/*   By: loky <loky@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/18 19:58:59 by aalatzas          #+#    #+#             */
-/*   Updated: 2023/12/19 05:04:07 by aalatzas         ###   ########.fr       */
+/*   Updated: 2023/12/22 20:59:10 by loky             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,11 +80,11 @@ static void	load_texture(t_map *map, t_tx *tx)
 			* S_TEX, map->lines * S_TEX, "SO_LONG", false);
 	if (!tx->mlx)
 		exit (EXIT_FAILURE);
-	tx->r_wall = mlx_load_png("./mandatory_part/Texturen/wall.png");
-	tx->r_field = mlx_load_png("./mandatory_part/Texturen/field.png");
-	tx->r_key = mlx_load_png("./mandatory_part/Texturen/gems.png");
-	tx->r_door = mlx_load_png("./mandatory_part/Texturen/door.png");
-	tx->r_char = mlx_load_png("./mandatory_part/Texturen/player.png");
+	tx->r_wall = mlx_load_png("./mandatory_part/texturen/wall.png");
+	tx->r_field = mlx_load_png("./mandatory_part/texturen/field.png");
+	tx->r_key = mlx_load_png("./mandatory_part/texturen/gems.png");
+	tx->r_door = mlx_load_png("./mandatory_part/texturen/door.png");
+	tx->r_char = mlx_load_png("./mandatory_part/texturen/player.png");
 }
 
 int32_t	grafik_main(t_map *map, t_tx *tx)

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   load_texure_bonus.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aalatzas <aalatzas@student.42heilbronn.    +#+  +:+       +#+        */
+/*   By: loky <loky@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/18 19:58:59 by aalatzas          #+#    #+#             */
-/*   Updated: 2023/12/20 11:31:09 by aalatzas         ###   ########.fr       */
+/*   Updated: 2023/12/22 20:59:56 by loky             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,8 +104,8 @@ static void	load_texture(t_map *map, t_tx *tx)
 			* S_TEX, (map->lines * S_TEX) + 25, "SO_LONG", false);
 	if (!tx->mlx)
 		exit (EXIT_FAILURE);
-	tx->r_wall = mlx_load_png("./bonus/Texturen/wall.png");
-	tx->r_field = mlx_load_png("./bonus/Texturen/field.png");
+	tx->r_wall = mlx_load_png("./bonus/texturen/Wall.png");
+	tx->r_field = mlx_load_png("./bonus/texturen/field.png");
 	tx->r_key = mlx_load_png("./bonus/texturen/coin1.png");
 	tx->r_doorc = mlx_load_png("./bonus/texturen/door_close.png");
 	tx->r_dooro1 = mlx_load_png("./bonus/texturen/door_open1.png");
@@ -121,9 +121,7 @@ static void	load_texture(t_map *map, t_tx *tx)
 int32_t	grafik_main(t_map *map, t_tx *tx)
 {
 	void	*params[2];
-	int		i;
 
-	i = 0;
 	load_texture(map, tx);
 	tx->m_wall = mlx_texture_to_image(tx->mlx, tx->r_wall);
 	tx->m_field = mlx_texture_to_image(tx->mlx, tx->r_field);
