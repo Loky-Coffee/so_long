@@ -1,4 +1,10 @@
-<h1>So_Long - Game</h1>
+<div style="text-align: center;">
+  <h1 align="center"style="text-decoration: underline;">So_Long</h1>
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="https://github.com/Loky-Coffee/so_long/blob/main/So_long.gif?raw=true" align="center" alt="the 'so_long' 2d game" width="1024" height="512" />
+  </div>
+</div>
+
 
 <h2>Table of Contents</h2>
 <ul>
